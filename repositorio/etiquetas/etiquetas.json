@@ -1,0 +1,40 @@
+{
+	"P":[
+		"Variations",
+		"Color",
+		"Surface Treatment",
+		"Size"
+	],
+	"W":[
+		"Variations",
+		"Size",
+		"Color",
+		"Surface Treatment"
+	],
+	"E":[
+		"Variations",
+		"Size",
+		"Color"
+	],
+	"NS":[
+		"Variations",
+		"Sizes",
+		"Color"
+	],
+	"R":[
+		"Gauge Size",
+		"Wearable Length"
+	],
+	"S":[
+		"Variations",
+		"Sizes",
+		"Color"
+	],
+	"F":[
+		"Sizes", 
+		"Color"
+	],
+	"L":[
+		"Sizes", "Total Length", "Color"
+	]
+}

@@ -1,0 +1,58 @@
+{
+	"files": {
+		"style.less": {
+			"engines": [
+				{
+					"compiler": "less",
+					"output": "style.css",
+					"options": {
+						"compress": false,
+						"ieCompat": false,
+						"strictMath": false,
+						"strictUnits": false,
+						"javascriptEnabled": false,
+						"sourceMap": true,
+						"sourcemap": true
+					}
+				}
+			],
+			"sources": [
+				"../build/bootstrap-less/mixins.less",
+				"../build/bootstrap-less/mixins/alerts.less",
+				"../build/bootstrap-less/mixins/background-variant.less",
+				"../build/bootstrap-less/mixins/border-radius.less",
+				"../build/bootstrap-less/mixins/buttons.less",
+				"../build/bootstrap-less/mixins/center-block.less",
+				"../build/bootstrap-less/mixins/clearfix.less",
+				"../build/bootstrap-less/mixins/forms.less",
+				"../build/bootstrap-less/mixins/gradients.less",
+				"../build/bootstrap-less/mixins/grid-framework.less",
+				"../build/bootstrap-less/mixins/grid.less",
+				"../build/bootstrap-less/mixins/hide-text.less",
+				"../build/bootstrap-less/mixins/image.less",
+				"../build/bootstrap-less/mixins/labels.less",
+				"../build/bootstrap-less/mixins/list-group.less",
+				"../build/bootstrap-less/mixins/nav-divider.less",
+				"../build/bootstrap-less/mixins/nav-vertical-align.less",
+				"../build/bootstrap-less/mixins/opacity.less",
+				"../build/bootstrap-less/mixins/pagination.less",
+				"../build/bootstrap-less/mixins/panels.less",
+				"../build/bootstrap-less/mixins/progress-bar.less",
+				"../build/bootstrap-less/mixins/reset-filter.less",
+				"../build/bootstrap-less/mixins/resize.less",
+				"../build/bootstrap-less/mixins/responsive-visibility.less",
+				"../build/bootstrap-less/mixins/size.less",
+				"../build/bootstrap-less/mixins/tab-focus.less",
+				"../build/bootstrap-less/mixins/table-row.less",
+				"../build/bootstrap-less/mixins/text-emphasis.less",
+				"../build/bootstrap-less/mixins/text-overflow.less",
+				"../build/bootstrap-less/mixins/vendor-prefixes.less",
+				"../build/bootstrap-less/variables.less",
+				"modal-car.less",
+				"pageElement.less",
+				"registro.less",
+				"userAdmin.less"
+			]
+		}
+	}
+}

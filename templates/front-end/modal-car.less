@@ -1,0 +1,73 @@
+#modal-car{
+	background: rgba(0, 0, 0, 0.9);
+	//color: #fff;
+	color: @color-gris;
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	transition: all .5s;
+	z-index: 99999;
+	overflow-y: scroll;
+	
+	display: none;
+	
+	table{
+		font-size: 12px;
+		
+		@media(max-width: @screen-xs-max){
+			overflow-x: scroll;
+		}
+	}
+	
+	.alert{
+		&.alert-gris{
+			background: #F2F2F2;
+		}
+	}
+	
+	.modal-car-body{
+		background: white;
+		border: 2px solid black;
+		
+		&:first-child{
+			margin-top: 100px;
+		}
+		
+		&:last-child{
+			margin-top: 70px;
+		}
+	}
+	
+	.btn-addProducto{
+		border-radius: 10px;
+		border: @color-gris 1px solid;
+		
+	}
+	
+	#lnkCerrar{
+		&.circle{
+			color: @color-gris;
+		}
+	}
+	
+	.btn-delete{
+		background: #D8CEF6;
+		font-size: 14px;
+		color: black;
+		margin-bottom: 15px;
+		padding: 10 10 10 10;
+	}
+	
+	.dropdown-menu{
+		overflow-y: auto; 
+		max-height:200px;
+	}
+	
+	@media(max-width: @screen-xs-max){
+		h2{
+			font-size: 16px;
+		}
+	}	
+}
